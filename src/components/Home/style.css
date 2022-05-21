@@ -1,0 +1,35 @@
+body {
+  transition: 0.5s ease;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#main-container {
+  justify-content: center;
+  width: 90%;
+}
+
+#home-card {
+  background-color: rgb(23, 26, 38, 0.9);
+  color: #f7f7ff;
+  border-radius: 8px;
+}
+
+#react-logo {
+  width: 10%;
+}
+
+@media (max-width: 1000px) {
+  #home-card {
+    width: 90%;
+    margin: 10px;
+  }
+}
