@@ -15,7 +15,7 @@ function App() {
       <SideNav />
       <Routes>
         <Route path='/' element={<Home />} />
-        {/* <Route path='/reactivate-lasers' element={<Home />} /> */}
+        <Route path='/reactivate-lasers' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/work' element={<Work />} />
         <Route path='/contact' element={<Contact />} />
