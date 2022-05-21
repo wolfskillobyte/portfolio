@@ -1,7 +1,7 @@
 {
   "name": "reactivate-lasers",
   "version": "0.1.0",
-  "homepage": "http://wolfskillobyte.github.io/reactivate-lasers/",
+  "homepage": "http://wolfskillobyte.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
