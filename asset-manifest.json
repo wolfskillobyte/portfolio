@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reactivate-lasers/static/css/main.62ea4499.css",
+    "main.js": "/reactivate-lasers/static/js/main.6d6b64a8.js",
+    "static/js/787.76ba1518.chunk.js": "/reactivate-lasers/static/js/787.76ba1518.chunk.js",
+    "static/media/circuts.jpg": "/reactivate-lasers/static/media/circuts.b3a2aeb0caa557a2f464.jpg",
+    "static/media/circle-avatar.png": "/reactivate-lasers/static/media/circle-avatar.35ade063a2fc1b87f172.png",
+    "static/media/dnd-creator.jpg": "/reactivate-lasers/static/media/dnd-creator.840bddddfa699cbfbe4c.jpg",
+    "static/media/wolf-pic.jpg": "/reactivate-lasers/static/media/wolf-pic.34c2425f1ebb20776246.jpg",
+    "static/media/rr-icon.png": "/reactivate-lasers/static/media/rr-icon.11bc5fe8bd8479c4deca.png",
+    "static/media/weather-app.jpg": "/reactivate-lasers/static/media/weather-app.017124f6637c648ab97e.jpg",
+    "static/media/pantry-hacker.jpg": "/reactivate-lasers/static/media/pantry-hacker.6f326fff505e405097b4.jpg",
+    "static/media/wolf-resume-new.pdf": "/reactivate-lasers/static/media/wolf-resume-new.d443e77993dc616227f2.pdf",
+    "static/media/work-sched.jpg": "/reactivate-lasers/static/media/work-sched.46d82a6c80e30270ba3f.jpg",
+    "static/media/pass-gen.jpg": "/reactivate-lasers/static/media/pass-gen.6af94e6a732fa2c28bfd.jpg",
+    "static/media/code-quiz.jpg": "/reactivate-lasers/static/media/code-quiz.12783e6d25493f73026f.jpg",
+    "static/media/robot-gladiators.jpg": "/reactivate-lasers/static/media/robot-gladiators.b7c63c81845357a2699f.jpg",
+    "index.html": "/reactivate-lasers/index.html",
+    "main.62ea4499.css.map": "/reactivate-lasers/static/css/main.62ea4499.css.map",
+    "main.6d6b64a8.js.map": "/reactivate-lasers/static/js/main.6d6b64a8.js.map",
+    "787.76ba1518.chunk.js.map": "/reactivate-lasers/static/js/787.76ba1518.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62ea4499.css",
+    "static/js/main.6d6b64a8.js"
+  ]
+}
