@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css';
-import { Card, CardContent, Container, Grid } from '@mui/material';
+import { Container } from '@mui/material';
 
 // photos
 import readingRambo from '../../assets/projects/rr-icon.png';
 import dnd from '../../assets/projects/dnd-creator.jpg';
 import pantryHacker from '../../assets/projects/pantry-hacker.jpg';
 import weather from '../../assets/projects/weather-app.jpg';
-import codeQuiz from '../../assets/projects/code-quiz.jpg';
+import codeQuiz from '../../assets/projects/code-quiz.png';
 import workday from '../../assets/projects/work-sched.jpg';
 import passGen from '../../assets/projects/pass-gen.jpg';
 import robotFight from '../../assets/projects/robot-gladiators.jpg';
@@ -80,30 +80,26 @@ const Work = () => {
 
   return (
     <div className='work-page'>
-      <h2> my work </h2>
+      <h1 id='header'> deployed projects </h1>
       {projects.map((project, i) => (
-        <Grid className='project-body' container spacing={1}>
-          <Grid item xs={8}>
-            <Card id='project-card' key={project.id}>
-              <CardContent className='card-content'>
-                <h4>{project.name}</h4>
-                <p>{project.description}</p>
-                <Container>
-                  <div class='border'>
-                    <a href={project.url} target='_blank' rel='noreferrer'>
-                      <img
-                        className='img-thumb'
-                        src={project.image}
-                        alt={project.name}
-                        key={project.id}
-                      />
-                    </a>
-                  </div>
-                </Container>
-              </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
+        // <Card id='project-card' key={project.id}>
+        //   <CardContent className='card-content'>
+        <Container id='project-card' key={project.id}>
+          <h3>{project.name}</h3>
+          <p>{project.description}</p>
+          <Container>
+            <div class='border'>
+              <a href={project.url} target='_blank' rel='noreferrer'>
+                <img
+                  className='img-thumb'
+                  src={project.image}
+                  alt={project.name}
+                  key={project.id}
+                />
+              </a>
+            </div>
+          </Container>
+        </Container>
       ))}
     </div>
   );

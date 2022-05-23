@@ -6,25 +6,18 @@ import resume from '../../assets/wolfskill-resume.pdf';
 
 function Home() {
   return (
-    <Container id='main-container'>
+    <div>
       <h1 id='header'>howdy!</h1>
-      <Container id='home-card' key='home-card'>
-        welcome to my page
+
+      <Container id='project-card'>
+        <div>Welcome! Use the left navigation to explore.</div>
         <div>
           <a key='resume' target='_blank' rel='noreferrer' href={resume}>
             view resume
           </a>
         </div>
-        <span className='italic'>i'm still a work in progress! </span>🚧
       </Container>
-
-      <Container id='home-card' key='home-card'>
-        Thank you to <a href='https://ummmmandy.tumblr.com/'>Mandy</a> for her
-        avatar-creator.
-        <br></br>Please check out her wonderful art! 🌙
-        <div></div>
-      </Container>
-    </Container>
+    </div>
   );
 }
 

@@ -3,10 +3,9 @@ body {
   margin-left: 350px;
 }
 
-/* .project-body {
-  display: flex;
-  flex-wrap: wrap;
-} */
+p {
+  font-weight: lighter;
+}
 
 .img-thumb {
   width: 50%;
@@ -19,16 +18,12 @@ body {
 
 #project-card {
   margin: 10px;
-  /* width: 400px; */
+  width: 90%;
   background-color: rgb(23, 26, 38, 0.9);
   color: #f7f7ff;
   border-radius: 10px;
-  /* justify-content: center; */
+  padding: 10px;
 }
-
-/* .card-content {
-  justify-content: center;
-} */
 
 @media (max-width: 770px) {
 #project-card {

@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import avatar from '../../assets/icons/circle-avatar.png';
 import { Link } from 'react-router-dom';
-import { Container, SvgIcon } from '@mui/material';
+import { Container, SvgIcon, Tooltip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -30,22 +30,26 @@ function SideNav() {
             rel='noreferrer'
             target='_blank'
           >
-            <SvgIcon
-              alt='github-icon'
-              fontSize='large'
-              component={GitHubIcon}
-            />
+            <Tooltip title='GitHub'>
+              <SvgIcon
+                alt='github-icon'
+                fontSize='large'
+                component={GitHubIcon}
+              />
+            </Tooltip>
           </a>{' '}
           <a
             href='https://www.linkedin.com/in/srwolfskill/'
             rel='noreferrer'
             target='_blank'
           >
-            <SvgIcon
-              alt='linkedin-icon'
-              fontSize='large'
-              component={LinkedInIcon}
-            />
+            <Tooltip title='LinkedIn'>
+              <SvgIcon
+                alt='linkedin-icon'
+                fontSize='large'
+                component={LinkedInIcon}
+              />
+            </Tooltip>
           </a>
         </Container>
       </ul>
