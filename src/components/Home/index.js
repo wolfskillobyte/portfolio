@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Container } from '@mui/material';
-import resume from '../../assets/wolf-resume-new.pdf';
+import resume from '../../assets/wolfskill-resume.pdf';
 // import reactLogo from '../../assets/icons/logo192.png';
 
 function Home() {
