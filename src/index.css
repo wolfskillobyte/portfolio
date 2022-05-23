@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-main {
-  margin: 0 auto;
-  width: 80%;
-  padding: 50px 30px;
-}
-
 :root {
   --dark: #171a26;
   --white: #f7f7ff;

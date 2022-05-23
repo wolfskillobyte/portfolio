@@ -9,9 +9,9 @@ function Contact() {
 
   return (
     <div>
-      <div>
+
         <h1> get in touch </h1>
-      </div>
+
 
       <Container>
         <a

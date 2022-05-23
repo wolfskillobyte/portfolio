@@ -5,7 +5,7 @@ import { Container } from '@mui/material';
 
 function About() {
   return (
-    <div className='container'>
+    <div>
       <h1>i'm wolf!</h1>
 
       <Container id='project-card'>
@@ -56,14 +56,12 @@ function About() {
         </p>
       </Container>
 
-      <Container id='project-card' key='card3'>
-        <div className='about-card'>
+      <Container id='project-card'>
           <p>
             Thank you to <a href='https://ummmmandy.tumblr.com/'>Mandy</a> for
             her avatar-creator.
             <br></br>Please check out her wonderful art! 🌙
           </p>
-        </div>
       </Container>
     </div>
   );
