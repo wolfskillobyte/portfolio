@@ -58,7 +58,7 @@ You can use `npm run test` to run the test suite through your terminal.
 ## Feedback
 
 Have something you'd like to add?<br>
-Feel free to contact me via email!<br>
+Contact me via email!<br>
 
 <a href="mailto:sraewolfskill@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
