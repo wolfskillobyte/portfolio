@@ -1,6 +1,7 @@
 body {
   margin-left: 350px;
   transition: 0.5s ease;
+  padding-bottom: 100px;
 }
 
 p {
