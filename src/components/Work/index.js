@@ -79,7 +79,7 @@ const Work = () => {
   ];
 
   return (
-    <div className='work-page'>
+    <Container className='work-page'>
       <h1 id='header'> deployed projects </h1>
       {projects.map((project, i) => (
         // <Card id='project-card' key={project.id}>
@@ -101,7 +101,7 @@ const Work = () => {
           </Container>
         </Container>
       ))}
-    </div>
+    </Container>
   );
 };
 

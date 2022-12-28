@@ -1,11 +1,41 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.avatar-icon {
+  max-width: 30%;
   transition: 0.5s ease;
   justify-content: center;
 }
 
-@media (max-width: 1000px) {
-  #home-card {
-    width: 90%;
-    margin: 10px;
-  }
+.list-container {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+} 
+
+.avatar-icon-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.list-item-container {
+  background-color: rgb(23, 26, 38, 0.8);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: .5rem;
+  /* text-align: center; */
+}
+
+.typography-default {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  line-height: 1;
+  margin: .4rem 0;
+  padding: .5rem;
+}
+
+.svg-icon {
+  padding: .2rem;
+  margin: .4rem 0;
 }

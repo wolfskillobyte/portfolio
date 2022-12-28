@@ -7,10 +7,10 @@ body {
   max-width: 50%;
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   #about-card-1,
   #about-card-2 {
     width: 90%;
     margin: 10px;
   }
-}
+} */
