@@ -5,7 +5,7 @@ import { Container } from '@mui/material';
 
 function About() {
   return (
-    <div>
+    <Container>
       <h1>i'm wolf!</h1>
 
       <Container id='project-card'>
@@ -63,7 +63,7 @@ function About() {
             <br></br>Please check out her wonderful art! 🌙
           </p>
       </Container>
-    </div>
+    </Container>
   );
 }
 
