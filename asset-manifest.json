@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.439d349d.css",
-    "main.js": "/portfolio/static/js/main.10452bc6.js",
+    "main.css": "/portfolio/static/css/main.ed910d1e.css",
+    "main.js": "/portfolio/static/js/main.33cb3c1a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/rr-icon.png": "/portfolio/static/media/rr-icon.13d3d075578836f335de.png",
-    "static/media/work-sched.jpg": "/portfolio/static/media/work-sched.4b6df81f851756a6f89d.jpg",
     "static/media/circle-avatar.png": "/portfolio/static/media/circle-avatar.35ade063a2fc1b87f172.png",
-    "static/media/dnd-creator.jpg": "/portfolio/static/media/dnd-creator.840bddddfa699cbfbe4c.jpg",
-    "static/media/weather-app.jpg": "/portfolio/static/media/weather-app.3b272aae9a4dda30896a.jpg",
-    "static/media/wolf-pic.jpg": "/portfolio/static/media/wolf-pic.34c2425f1ebb20776246.jpg",
-    "static/media/pass-gen.jpg": "/portfolio/static/media/pass-gen.fe9973607f3c3dea8f4c.jpg",
-    "static/media/pantry-hacker.jpg": "/portfolio/static/media/pantry-hacker.6f326fff505e405097b4.jpg",
+    "static/media/RobotoMono-ExtraLightItalic.ttf": "/portfolio/static/media/RobotoMono-ExtraLightItalic.edd801a98342a8122948.ttf",
+    "static/media/RobotoMono-Regular.ttf": "/portfolio/static/media/RobotoMono-Regular.34e46962590bff8eefe5.ttf",
     "static/media/wolfskill-resume.pdf": "/portfolio/static/media/wolfskill-resume.0a12f23d6ab23d440ae9.pdf",
-    "static/media/code-quiz.png": "/portfolio/static/media/code-quiz.9a23ba4f9fa050f14ff4.png",
-    "static/media/robot-gladiators.jpg": "/portfolio/static/media/robot-gladiators.b7c63c81845357a2699f.jpg",
     "index.html": "/portfolio/index.html",
-    "main.439d349d.css.map": "/portfolio/static/css/main.439d349d.css.map",
-    "main.10452bc6.js.map": "/portfolio/static/js/main.10452bc6.js.map",
+    "main.ed910d1e.css.map": "/portfolio/static/css/main.ed910d1e.css.map",
+    "main.33cb3c1a.js.map": "/portfolio/static/js/main.33cb3c1a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.439d349d.css",
-    "static/js/main.10452bc6.js"
+    "static/css/main.ed910d1e.css",
+    "static/js/main.33cb3c1a.js"
   ]
 }
