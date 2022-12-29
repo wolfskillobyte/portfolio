@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ed910d1e.css",
-    "main.js": "/portfolio/static/js/main.33cb3c1a.js",
+    "main.js": "/portfolio/static/js/main.8bb06f0f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/circle-avatar.png": "/portfolio/static/media/circle-avatar.35ade063a2fc1b87f172.png",
     "static/media/RobotoMono-ExtraLightItalic.ttf": "/portfolio/static/media/RobotoMono-ExtraLightItalic.edd801a98342a8122948.ttf",
@@ -9,11 +9,11 @@
     "static/media/wolfskill-resume.pdf": "/portfolio/static/media/wolfskill-resume.0a12f23d6ab23d440ae9.pdf",
     "index.html": "/portfolio/index.html",
     "main.ed910d1e.css.map": "/portfolio/static/css/main.ed910d1e.css.map",
-    "main.33cb3c1a.js.map": "/portfolio/static/js/main.33cb3c1a.js.map",
+    "main.8bb06f0f.js.map": "/portfolio/static/js/main.8bb06f0f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed910d1e.css",
-    "static/js/main.33cb3c1a.js"
+    "static/js/main.8bb06f0f.js"
   ]
 }
