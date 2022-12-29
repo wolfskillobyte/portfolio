@@ -1,35 +1,27 @@
 import React from 'react';
 import './style.css';
-import avatar from '../../assets/icons/circle-avatar.png';
-// import { Link } from 'react-router-dom';
-import { Container, Link, List, li, SvgIcon, Typography } from '@mui/material';
+import Avatar from '../../assets/icons/circle-avatar.png';
+import { SvgIcon } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
-
-import Resume from '../../assets/wolfskill-resume.pdf';
+import Resume from '../../assets/text/wolfskill-resume.pdf';
 
 function Home() {
 	return (
-		<div>
+		<div className='home-component-parent'>
 			<div className="avatar-icon-container">
 				<a href="/">
-					<img className="avatar-icon" alt="avatar" src={avatar} />
+					<img className="avatar-icon" alt="avatar" src={Avatar} />
 				</a>
 			</div>
 
+			<div className='typography-quote'>"a proprietary blend of jasmine, lavender, rose hips, AND a little tahitian vanilla"</div>
+
 			<ul className="list-container">
-				{/* <ulItem className="list-item-container">
-					<a href="/about">about</a>
-				</li>
-
-				<li className="list-item-container">
-					<a href="/work">work</a>
-				</li> */}
-
 				<a
 					href="mailto:samantha.wolfskill@travelandleisure.com"
 					rel="noreferrer"
@@ -42,7 +34,7 @@ function Home() {
 							alt="email-icon"
 							fontSize="large"
 						/>
-						<Typography className="typography-default">email</Typography>
+						<div className="typography-default">email</div>
 					</li>
 				</a>
 
@@ -58,7 +50,7 @@ function Home() {
 							alt="github-icon"
 							fontSize="large"
 						/>
-						<Typography className="typography-default">github</Typography>
+						<div className="typography-default">github</div>
 					</li>
 				</a>
 
@@ -74,7 +66,7 @@ function Home() {
 							alt="linkedin-icon"
 							fontSize="large"
 						/>
-						<Typography className="typography-default">linkedin</Typography>
+						<div className="typography-default">linkedin</div>
 					</li>
 				</a>
 
@@ -89,31 +81,35 @@ function Home() {
 							className="svg-icon"
 							fontSize="large"
 						/>
-						<Typography className="typography-default">discord</Typography>
+						<div className="typography-default">discord</div>
 					</li>
 				</a>
 
-				<a href="https://www.instagram.com/wolfnards/" rel="noreferrer" target="_blank">
+				<a
+					href="https://www.instagram.com/wolfnards/"
+					rel="noreferrer"
+					target="_blank"
+				>
 					<li className="list-item-container">
-            <SvgIcon
-              component={InstagramIcon}
+						<SvgIcon
+							component={InstagramIcon}
 							className="svg-icon"
 							alt="instagram-icon"
 							fontSize="large"
 						/>
-						<Typography className="typography-default">instagram</Typography>
+						<div className="typography-default">instagram</div>
 					</li>
 				</a>
 
 				<a href={Resume} rel="noreferrer" target="_blank">
 					<li className="list-item-container">
-            <SvgIcon
-              component={PictureAsPdfIcon}
+						<SvgIcon
+							component={PictureAsPdfIcon}
 							className="svg-icon"
 							alt="adobe-reader-icon"
 							fontSize="large"
 						/>
-						<Typography className="typography-default">resume</Typography>
+						<div className="typography-default">resume</div>
 					</li>
 				</a>
 			</ul>

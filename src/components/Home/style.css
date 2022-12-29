@@ -1,21 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); */
 
-.avatar-icon {
-  max-width: 30%;
-  transition: 0.5s ease;
-  justify-content: center;
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Mono";
+  src: url('../../assets/styles/fonts/RobotoMono-Regular.ttf');
 }
 
-.list-container {
-  list-style: none;
-  padding: 0;
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Light";
+  src: url('../../assets/styles/fonts/RobotoMono-ExtraLightItalic.ttf');
+}
+
+.home-component-parent {
   width: 100%;
-} 
+  margin-top: 2rem;
+}
 
 .avatar-icon-container {
   text-align: center;
-  margin-top: 2rem;
 }
+
+.avatar-icon {
+  max-width: 40%;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.typography-quote {
+  font-family: "Roboto Light";
+  font-size: 1rem;
+  text-align: center;
+  margin: 2rem 1rem 2.5rem;
+}
+
+.list-container {
+  margin: 1rem;
+  padding: 0;
+} 
 
 .list-item-container {
   background-color: rgb(23, 26, 38, 0.8);
@@ -24,11 +46,11 @@
   justify-content: center;
   margin: 1rem;
   padding: .5rem;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .typography-default {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 500;
   line-height: 1;
   margin: .4rem 0;
@@ -38,4 +60,19 @@
 .svg-icon {
   padding: .2rem;
   margin: .4rem 0;
+}
+
+@media (min-width: 1000px) {
+
+  .avatar-icon {
+    max-width: 20%;
+  }
+
+  .typography-quote {
+    padding: 0 20rem;
+  }
+
+  .list-container {
+    padding: 0 20rem;
+  }
 }

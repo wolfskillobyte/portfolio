@@ -3,14 +3,14 @@ import './style.css';
 import { Container } from '@mui/material';
 
 // photos
-import readingRambo from '../../assets/projects/rr-icon.png';
-import dnd from '../../assets/projects/dnd-creator.jpg';
-import pantryHacker from '../../assets/projects/pantry-hacker.jpg';
-import weather from '../../assets/projects/weather-app.jpg';
-import codeQuiz from '../../assets/projects/code-quiz.png';
-import workday from '../../assets/projects/work-sched.jpg';
-import passGen from '../../assets/projects/pass-gen.jpg';
-import robotFight from '../../assets/projects/robot-gladiators.jpg';
+import readingRambo from '../../assets/images/rr-icon.png';
+import dnd from '../../assets/images/dnd-creator.jpg';
+import pantryHacker from '../../assets/images/pantry-hacker.jpg';
+import weather from '../../assets/images/weather-app.jpg';
+import codeQuiz from '../../assets/images/code-quiz.png';
+import workday from '../../assets/images/work-sched.jpg';
+import passGen from '../../assets/images/pass-gen.jpg';
+import robotFight from '../../assets/images/robot-gladiators.jpg';
 
 const Work = () => {
   const projects = [
