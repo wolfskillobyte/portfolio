@@ -19,7 +19,7 @@ function Home() {
 				</a>
 			</div>
 
-			<div className='typography-quote'>"a proprietary blend of jasmine, lavender, rose hips, AND a little tahitian vanilla"</div>
+			{/* <div className='typography-quote'>"a proprietary blend of jasmine, lavender, rose hips, AND a little tahitian vanilla"</div> */}
 
 			<ul className="list-container">
 				<a
