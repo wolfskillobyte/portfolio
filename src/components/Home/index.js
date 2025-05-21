@@ -84,8 +84,8 @@ function Home() {
 						<div className="typography-default">discord</div>
 					</li>
 				</a>
-
-				<a
+			{/* Instagram */}
+				{/* <a
 					href="https://www.instagram.com/wolfnards/"
 					rel="noreferrer"
 					target="_blank"
@@ -99,7 +99,7 @@ function Home() {
 						/>
 						<div className="typography-default">instagram</div>
 					</li>
-				</a>
+				</a> */}
 
 				<a href={Resume} rel="noreferrer" target="_blank">
 					<li className="list-item-container">
