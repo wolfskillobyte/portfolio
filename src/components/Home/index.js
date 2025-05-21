@@ -4,11 +4,12 @@ import Avatar from '../../assets/icons/circle-avatar.png';
 import { SvgIcon } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+// import EmailIcon from '@mui/icons-material/Email';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
-import Resume from '../../assets/text/wolfskill-resume.pdf';
+import WebIcon from '@mui/icons-material/Web';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+// import Resume from '../../assets/text/wolfskill-resume.pdf';
 
 function Home() {
 	return (
@@ -19,25 +20,12 @@ function Home() {
 				</a>
 			</div>
 
-			{/* <div className='typography-quote'>"a proprietary blend of jasmine, lavender, rose hips, AND a little tahitian vanilla"</div> */}
+			<div className='typography-title'>
+				{'Samantha Wolfskill'}
+			</div>
 
 			<ul className="list-container">
-				<a
-					href="mailto:samantha.wolfskill@travelandleisure.com"
-					rel="noreferrer"
-					target="_blank"
-				>
-					<li className="list-item-container">
-						<SvgIcon
-							component={EmailIcon}
-							className="svg-icon"
-							alt="email-icon"
-							fontSize="large"
-						/>
-						<div className="typography-default">email</div>
-					</li>
-				</a>
-
+				
 				<a
 					href="https://github.com/wolfskillobyte"
 					rel="noreferrer"
@@ -84,24 +72,42 @@ function Home() {
 						<div className="typography-default">discord</div>
 					</li>
 				</a>
-			{/* Instagram */}
+
+				{/* Deprecated Email - TODO: encrypt or use reCAPTCHA */}
 				{/* <a
-					href="https://www.instagram.com/wolfnards/"
+					href="mailto:"
 					rel="noreferrer"
 					target="_blank"
 				>
 					<li className="list-item-container">
 						<SvgIcon
-							component={InstagramIcon}
+							component={EmailIcon}
 							className="svg-icon"
-							alt="instagram-icon"
+							alt="email-icon"
 							fontSize="large"
 						/>
-						<div className="typography-default">instagram</div>
+						<div className="typography-default">email</div>
 					</li>
 				</a> */}
 
-				<a href={Resume} rel="noreferrer" target="_blank">
+				<a
+					href="https://clubwyndham.wyndhamdestinations.com/us/en/resorts/explore-destinations"
+					rel="noreferrer"
+					target="_blank"
+				>
+					<li className="list-item-container">
+						<SvgIcon 
+							component={WebIcon}
+							className="svg-icon"
+							alt="web-icon"
+							fontSize="large"
+						/>
+						<div className="typography-default">my work in prod</div>
+					</li>
+				</a>
+
+				{/* Old Resume */}
+				{/* <a href={Resume} rel="noreferrer" target="_blank">
 					<li className="list-item-container">
 						<SvgIcon
 							component={PictureAsPdfIcon}
@@ -111,7 +117,7 @@ function Home() {
 						/>
 						<div className="typography-default">resume</div>
 					</li>
-				</a>
+				</a> */}
 			</ul>
 		</div>
 	);

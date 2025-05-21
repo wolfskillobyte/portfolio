@@ -6,11 +6,11 @@ import { Container } from '@mui/material';
 import readingRambo from '../../assets/images/rr-icon.png';
 import dnd from '../../assets/images/dnd-creator.jpg';
 import pantryHacker from '../../assets/images/pantry-hacker.jpg';
-import weather from '../../assets/images/weather-app.jpg';
-import codeQuiz from '../../assets/images/code-quiz.png';
-import workday from '../../assets/images/work-sched.jpg';
-import passGen from '../../assets/images/pass-gen.jpg';
-import robotFight from '../../assets/images/robot-gladiators.jpg';
+// import weather from '../../assets/images/weather-app.jpg';
+// import codeQuiz from '../../assets/images/code-quiz.png';
+// import workday from '../../assets/images/work-sched.jpg';
+// import passGen from '../../assets/images/pass-gen.jpg';
+// import robotFight from '../../assets/images/robot-gladiators.jpg';
 
 const Work = () => {
   const projects = [
@@ -37,45 +37,45 @@ const Work = () => {
       image: pantryHacker,
       url: 'https://morning-spire-78833.herokuapp.com/'
     },
-    {
-      id: 'weather-app',
-      name: 'Weather App',
-      description:
-        'Who wants to talk about the weather? Search by location to get the current weather and forecast! ',
-      image: weather,
-      url: 'https://wolfgarb.github.io/stormy-and-blowie'
-    },
-    {
-      id: 'work-sched',
-      name: 'Workday Scheduler',
-      description:
-        'As a coding student who studies and works full-time, I need a daily planner to help me schedule errands and other to-dos! ',
-      image: workday,
-      url: 'https://github.com/wolfskillobyte/daily-planner'
-    },
-    {
-      id: 'robot-fight',
-      name: 'Robot Gladiators',
-      description: 'My first gamified application learning Javascript.',
-      image: robotFight,
-      url: 'https://wolfskillobyte.github.io/robot-gladiators/'
-    },
-    {
-      id: 'pass-gen',
-      name: 'Password Generator',
-      description:
-        'Need a secure password? Let the computer do the work for you. Choose a password length, and what to include: lowercase letters, uppercase letters, numbers, or symbols. ',
-      image: passGen,
-      url: 'https://wolfskillobyte.github.io/frank-stallone/'
-    },
-    {
-      id: 'code-quiz',
-      name: 'Code Quiz',
-      description:
-        'A timed quiz to test coding knowledge. Beat the clock and save your high score! ',
-      image: codeQuiz,
-      url: 'https://wolfskillobyte.github.io/coffee-stain/'
-    }
+    // {
+    //   id: 'weather-app',
+    //   name: 'Weather App',
+    //   description:
+    //     'Who wants to talk about the weather? Search by location to get the current weather and forecast! ',
+    //   image: weather,
+    //   url: 'https://wolfgarb.github.io/stormy-and-blowie'
+    // },
+    // {
+    //   id: 'work-sched',
+    //   name: 'Workday Scheduler',
+    //   description:
+    //     'As a coding student who studies and works full-time, I need a daily planner to help me schedule errands and other to-dos! ',
+    //   image: workday,
+    //   url: 'https://github.com/wolfskillobyte/daily-planner'
+    // },
+    // {
+    //   id: 'robot-fight',
+    //   name: 'Robot Gladiators',
+    //   description: 'My first gamified application learning Javascript.',
+    //   image: robotFight,
+    //   url: 'https://wolfskillobyte.github.io/robot-gladiators/'
+    // },
+    // {
+    //   id: 'pass-gen',
+    //   name: 'Password Generator',
+    //   description:
+    //     'Need a secure password? Let the computer do the work for you. Choose a password length, and what to include: lowercase letters, uppercase letters, numbers, or symbols. ',
+    //   image: passGen,
+    //   url: 'https://wolfskillobyte.github.io/frank-stallone/'
+    // },
+    // {
+    //   id: 'code-quiz',
+    //   name: 'Code Quiz',
+    //   description:
+    //     'A timed quiz to test coding knowledge. Beat the clock and save your high score! ',
+    //   image: codeQuiz,
+    //   url: 'https://wolfskillobyte.github.io/coffee-stain/'
+    // }
   ];
 
   return (
